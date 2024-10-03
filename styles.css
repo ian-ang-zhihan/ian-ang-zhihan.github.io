@@ -99,6 +99,7 @@ main {
 
 .project {
   display: flex;
+  align-items: center;
   flex-direction: row;
   max-width: 100%;
   margin: 1em 0 2em 0;
@@ -242,7 +243,6 @@ textarea {
   font-size: 16px;
   resize: none;
 }
-
 
 /* Add some spacing to the form */
 form {

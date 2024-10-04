@@ -4,6 +4,14 @@
   --cg-blue: rgb(36, 94, 255);
   --cg-grey: rgb(243, 243, 243);
   --cg-white: rgb(255, 255, 255);
+
+  /* Color palette from link below */
+  /* https://coolors.co/011638-364156-cdcdcd-dff8eb-214e34 */
+  --oxford-blue: #011638ff;
+  --charcoal: #364156ff;
+  --silver: #cdcdcdff;
+  --honeydew: #dff8ebff;
+  --cal-poly-green: #214e34ff;
 }
 
 html {
@@ -11,7 +19,7 @@ html {
 }
 
 body {
-  background: var(--cg-grey);
+  background: var(--silver);
   position: relative;
   min-height: 100vh;
   padding: 0;
@@ -34,7 +42,7 @@ body {
   align-items: center;
   text-align: center;
 
-  background-color: var(--cg-black);
+  background-color: var(--charcoal);
   color: var(--cg-white);
   padding: 0px 0px;
 
@@ -64,7 +72,7 @@ body {
 }
 
 .navbar a:hover {
-  color: var(--cg-blue);
+  color: var(--honeydew);
   text-decoration: underline;
 }
 
@@ -93,6 +101,7 @@ main {
   justify-content: center;
   font-size: 40px;
   font-family: Georgia;
+  color: var(--honeydew)
 }
 
 /* CSS for portfolio grid */
@@ -188,6 +197,7 @@ main {
 .about-text {
   flex: 1;
   margin-left: 20px;
+  color: var(--cal-poly-green)
 }
 
 .about-text h2 {

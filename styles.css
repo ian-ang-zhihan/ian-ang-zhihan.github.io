@@ -204,7 +204,7 @@ main {
 .about-text {
   flex: 1;
   margin-left: 20px;
-  color: var(--cal-poly-green)
+  color: var(--cal-poly-green);
 }
 
 .about-text h2 {
@@ -236,8 +236,19 @@ main {
   background-color: var(--cg-blue);
 }
 
+.notice {
+  text-align: center;
+}
 .resume h2 {
   font-family: Georgia;
+  color: var(--cal-poly-green);
+}
+
+.entry {
+  padding: 1em;
+  margin: 0.5em 0;
+  border-style: solid;
+  border-color: var(--cal-poly-green);
 }
 
 /* CSS for contact form */
